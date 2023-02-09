@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="IE-edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, intial-scale=1.0" name="viewport">
+
+    </script>
+    <script src="https://kit.fontawesome.com/7515bfdbf7.js" crossorigin="anonymous"></script>
+    <title>Sreekutty C Nair</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+		body{
+			font-family:poppins;
+		}
+		body{
+    margin:0px;
+    padding: 0px;
+    font-family: poppins;
+    background-color: #111111;
+}
+*{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.navigation{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    z-index: 4;
+    background-image: linear-gradient(180deg, rgb(17,17,17) 15%, transparent);
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+}
+.menu li{
+    padding: 20px;
+}
+.logo{
+    height:33px;
+    z-index: 3;
+}
+.logo img{
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+.menu li a{
+    color: #ffffffcc;
+}
+.hire-me{
+    color: #46a0f5;
+    z-index: 3;
+}
+.hire-me i{
+    margin-left: 4px;
+}
+.menu li a:hover{
+    color: #46a0f5;
+    transition: all ease 0.5s;
+}
+.hire-me:hover{
+    color: #1a82e2;
+    transition: all ease 0.5s;
+}
+/*--main------------------------*/
+#main{
+    width:100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+#main::before{
+    content: '';
+    position: absolute;
+    width:130%;
+    height: 100vh;
+    left: -20%;
+    top: -23%;
+    transform: rotate(-10deg);
+    background: linear-gradient(45deg, rgb(19,19,19) -10%, #141516);
+    z-index: -1;
+}
+.main-text{
+    position: absolute;
+    left: 15%;
+    top: 50%;
+    transform: translate(-15%,-50%);
+    width:500px;
+}
+.main-text h1{
+    color: #ffffff;
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-shadow: 2px 2px 30px rgba(0,0,0,0.01);
+    margin: 0px;
+    line-height: 45px;
+}
+.main-text p{
+    color: #8a94a7c0;
+    font-size: 1rem;
+    margin: 0px;
+    margin-top: 10px;
+}
+.main-btns{
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+.main-btns a{
+    width:180px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.05);
+    letter-spacing: 1px;
+    font-size: 0.9rem;
+}
+.download-cv-btn{
+    background: linear-gradient(90deg, #2788e2 20%, #3b58b8);
+    margin-right: 20px;
+}
+
+<!--.hire-me-btn{-->
+<!--    background-color: #242830;-->
+<!--}-->
+<!--.hire-me-btn:hover{-->
+<!--    background-color: #0f7ce2;-->
+<!--    transition: all ease 0.3s;-->
+<!--}-->
+.model{
+    width:500px;
+    height: 500px;
+    position: absolute;
+    top: 60%;
+    right: 7%;
+    transform: translate(-7%,-50%);
+}
+.model img{
+    width:100%;
+    height: 100%;
+    object-fit: contain;
+}
+.model-bg{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width:45%;
+    height: 100%;
+}
+.model-bg img{
+    width:100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: top;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #14151610;
+    padding: 10px;
+    margin-top: 50px;
+    border-top: 1px solid #272729;
+}
+.copyright{
+    color:#ffffff;
+}
+.footer-social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-social a{
+    width:35px;
+    height: 35px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: #ffffff;
+    background-color: #292b3252;
+    margin: 5px;
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+.footer-social a:hover{
+    background-color: #2993f7;
+    transition: all ease 0.5s;
+}
+	</style>
+
+ </head>
+<body>
+<nav class="navigation">
+        <!--logo-->
+        <a href="#" class="logo">
+            <img src="360_F_330405756_ybSB0fbh76IfrxGLVqiSxIm4vqCBc5tQ.jpg"/>
+        </a>
+
+            <span class="nav-icon"></span>
+        </label>
+        <!--menu--->
+        <ul class="menu">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+
+    </nav>
+    <!--main-section---------------------->
+    <section id="main">
+        <!--text-------------->
+        <div class="main-text">
+            <h1>Hey, I'm a Front-End Developer</h1>
+            <p>I am Sreekutty from Alappuzha!I have completed my post graduation from MG university
+        In my post graduation , I have completed some projects based on java and .Net. Here are some interesting things about me.</p>
+
+            <div class="main-btns">
+                <a href="CV_2022120619180692.pdf" class="download-cv-btn">Download CV</a>
+
+            </div>
+        </div>
+        <div class="social">
+
+
+
+
+        </div>
+
+        <div class="model">
+            <img src="WhatsApp Image 2023-01-04 at 17.17.38.jpg"/>
+        </div>
+    </section>
+<footer>
+        <!--copyright-->
+        <span class="copyright">Copyright 2023@Sreekutty C Nair</span>
+        <!--footer-social-links---->
+        <div class="footer-social">
+            <!--facebook-->
+
+                <a href="https://www.facebook.com/ponnu.cn.5"><i class="fa-brands fa-square-facebook"></i></a>
+            </a>
+            <!--twitter-->
+
+                <a href="https://www.linkedin.com/in/sreekutty-c-nair-102405252/"><i class="fa-brands fa-linkedin"></i></i></a>
+            </a>
+            <!--youtube-->
+
+                <a href="https://www.instagram.com/sreekuttycnair/"><i class="fa-brands fa-instagram"></i></a>
+            </a>
+
+                <a href="https://github.com/Sree-c-nair"><i class="fa-brands fa-github"></i></a>
+            </a>
+        </div>
+    </footer>
+
+</body>
+</html>

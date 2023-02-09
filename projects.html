@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="IE-edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, intial-scale=1.0" name="viewport">
+
+    <script src="https://kit.fontawesome.com/7515bfdbf7.js" crossorigin="anonymous"></script>
+    <title>Sreekutty C Nair</title>
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+		body{
+			font-family:poppins;
+		}
+		body{
+    margin:0px;
+    padding: 0px;
+    font-family: poppins;
+    background-color: #111111;
+}
+*{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.navigation{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    z-index: 4;
+    background-image: linear-gradient(180deg, rgb(17,17,17) 15%, transparent);
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+}
+.menu li{
+    padding: 20px;
+}
+.logo{
+    height:33px;
+    z-index: 3;
+}
+.logo img{
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+.menu li a{
+    color: #ffffffcc;
+}
+.menu li a:hover{
+    color: #46a0f5;
+    transition: all ease 0.5s;
+}
+#projects{
+		width:100%;
+	height:100vh;
+	box-sizing: border-box;
+	font-family: calibri;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding-top: 40px ;
+
+}
+
+.p-heading h1{
+	color:#FFFFFF;
+	font-size: 3rem;
+	margin: 0px;
+	padding: 0px;
+
+}
+.p-heading p{
+	color:rgba(255,255,255,0.30);
+	font-size: 1rem;
+	margin: 0px;
+	padding: 0px;
+}
+.p-heading{
+	text-align: center;
+	margin: 20px 0px;
+}
+.s-box{
+	background-color: #2B2B2B;
+	width:350px;
+	height: 500px;
+	margin: 20px;
+	border-radius: 10px;
+	overflow: hidden;
+	box-shadow: 2px 2px 12px rgba(0,0,0,0.1);
+	position: relative;
+}
+.b-container{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+
+
+}
+.s-b-img{
+	width: 100%;
+	height: 70%;
+
+}
+.s-b-img img{
+	width:100%;
+	height: 100%;
+
+}
+.s-b-text{
+	width: 100%;
+	height: 30%;
+	background-color:#1E1E1E;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+.s-b-text a{
+	margin: 0px;
+	color:#FFFFFF;
+	font-size: 1.1rem;
+	font-family: calibri;
+	display: block;
+    display: -webkit-box;
+	max-width: 80%;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.s-b-text a:hover{
+	color:rgba(255,255,255,0.50)
+}
+.s-type{
+	font-family: calibri;
+	color:#FFFFFF;
+	background-color: #151515;
+	padding: 10px 15px;
+	position: absolute;
+	top: 0px;
+	left: 50%;
+	transform: translateX(-50%);
+	font-size: 18px;
+	border-radius: 0px 0px 10px 10px;
+	box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+}
+.s-box:hover{
+	transform:translateY(-10px);
+	transition: all ease 0.3s;
+
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #14151610;
+    padding: 10px;
+    margin-top: 50px;
+    border-top: 1px solid #272729;
+}
+.copyright{
+    color:#ffffff;
+}
+.footer-social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-social a{
+    width:35px;
+    height: 35px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: #ffffff;
+    background-color: #292b3252;
+    margin: 5px;
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+.footer-social a:hover{
+    background-color: #2993f7;
+    transition: all ease 0.5s;
+}
+
+
+
+</style>
+</head>
+<body>
+<nav class="navigation">
+        <!--logo-->
+        <a href="#" class="logo">
+            <img src="360_F_330405756_ybSB0fbh76IfrxGLVqiSxIm4vqCBc5tQ.jpg"/>
+        </a>
+
+
+            <span class="nav-icon"></span>
+
+        </label>
+        <!--menu--->
+        <ul class="menu">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="education.html">Education</a></li>
+             <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+
+    </nav>
+<br>
+<br>
+<br>
+
+         <section id="projects">
+           <div class="p-heading">
+             <h1> My Projects</h1>
+           </div>
+           <div class="b-container">
+             <div class="s-box">
+               <div class="s-b-img">
+                 <div class="s-type">EYE BANK</div>
+                   <img src="5544112.jpg">
+               </div>
+                 <div class="s-b-text">
+                     <a href="#">this is my degree level mini project based on eyebank.</a>
+                 </div>
+             </div>
+               <div class="s-box">
+                   <div class="s-b-img">
+                       <div class="s-type">E-DEPOT Shopping website</div>
+                       <img src="images (4).jpeg">
+                       
+                   </div>
+                   <div class="s-b-text">
+                       <a href="#">this is my main project for bsc level.</a>
+                   </div>
+               </div>
+               <div class="s-box">
+                   <div class="s-b-img">
+                       <div class="s-type"> HIRING AUTO-TAXI</div>
+                       <img src="images (5).jpeg">
+                   </div>
+                   <div class="s-b-text">
+                       <a href="#">this is my msc main project based on vehicle booking system.</a>
+                   </div>
+               </div>
+
+           </div>
+
+             
+
+         </section>
+
+<footer>
+        <!--copyright-->
+        <span class="copyright">Copyright 2023@Sreekutty C Nair</span>
+        <!--footer-social-links---->
+        <div class="footer-social">
+            <!--facebook-->
+
+                <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+            </a>
+            <!--twitter-->
+
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </a>
+            <!--youtube-->
+
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </a>
+
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+            </a>
+        </div>
+    </footer>
+
+</body>
+</html>
